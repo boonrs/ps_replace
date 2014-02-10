@@ -15,5 +15,6 @@ The config schema looks like this:
     * **Replacements:** A collection of replacements.  
       * **Replacement.find:** The word to look for in the text.  
       * **Replacement.replace:** The word to use as a replacement for what we're finding.  
+
 # License
 MIT License
