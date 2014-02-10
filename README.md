@@ -1,7 +1,10 @@
 ps_replace
 ==========
-
 PowerShell script to replace key words in a directory. This was specifically built to update strings for deploying a DotNetNuke site to multiple environments.
+
+# Usage 
+* Update the config with the appropriate values for your environment. 
+* Right click the ps_replace.ps1 file and choose *Run with PowerShell*.    
 
 # Config
 The config schema looks like this: 
@@ -12,3 +15,5 @@ The config schema looks like this:
     * **Replacements:** A collection of replacements.  
       * **Replacement.find:** The word to look for in the text.  
       * **Replacement.replace:** The word to use as a replacement for what we're finding.  
+# License
+MIT License
